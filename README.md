@@ -12,8 +12,6 @@ Aplicação web SPA (Single Page Application) desenvolvida para uma ONG fictíci
 
 ## Estrutura do Projeto
 
-## Estrutura do Projeto
-
 - `index.html`
 - `css/`
   - `style.css`
