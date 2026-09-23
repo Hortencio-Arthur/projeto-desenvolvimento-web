@@ -12,25 +12,26 @@ Aplicação web SPA (Single Page Application) desenvolvida para uma ONG fictíci
 
 ## Estrutura do Projeto
 
-projeto/
-├── index.html
-├── css/
-│ └── style.css
-├── html/
-│ ├── inicio.html
-│ ├── projetos.html
-│ └── cadastro.html
-├── js/
-│ ├── main.js
-│ ├── router.js
-│ ├── templete.js
-│ ├── formulario.js
-│ ├── validacao.js
-│ ├── mascaras.js
-│ └── armazenamento.js
-└── imagens/
-├── doacao.jpg
-└── voluntariado.jpg
+## Estrutura do Projeto
+
+- `index.html`
+- `css/`
+  - `style.css`
+- `html/`
+  - `inicio.html`
+  - `projetos.html`
+  - `cadastro.html`
+- `js/`
+  - `main.js`
+  - `router.js`
+  - `templete.js`
+  - `formulario.js`
+  - `validacao.js`
+  - `mascaras.js`
+  - `armazenamento.js`
+- `imagens/`
+  - `doacao.jpg`
+  - `voluntariado.jpg`
 
 
 ## Funcionalidades
