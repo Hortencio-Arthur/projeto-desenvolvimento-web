@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Início</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+  <header>
+    <h1>Nome da ONG</h1>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icone">☰</label>
+
+    <nav> 
+      <a href="html/inicio.html" class="ativo">Início</a>
+
+      <div class="dropdown">
+        <a href="html/projetos.html">Projetos</a>
+        <div class="dropdown-conteudo">
+          <a href="html/projetos.html#doacoes">Doações</a>
+          <a href="html/projetos.html#voluntariado">Voluntariado</a>
+        </div>
+      </div>
+      
+      <a href="html/cadastro.html">Cadastro</a>
+
+    </nav>
+  </header>
+
+  <main id="app">
+  </main>
+
+  <footer>
+  <div class="footer-contato">
+    <p>E-mail: contato@ong.com.br</p>
+    <p>Telefone: (41) 99999-9999</p>
+    <p>Endereço: Rua Exemplo, 100 - Curitiba - PR</p>
+  </div>
+  <p class="footer-copy">&copy; 2026 - Nome da ONG</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/imask@7.6.1/dist/imask.min.js"></script>
+<script src="js/templete.js"></script>
+<script src="js/armazenamento.js"></script>
+<script src="js/validacao.js"></script>
+<script src="js/mascaras.js"></script>
+<script src="js/formulario.js"></script>
+<script src="js/router.js"></script>
+<script src="js/main.js"></script>
+  </body>
+</html>
