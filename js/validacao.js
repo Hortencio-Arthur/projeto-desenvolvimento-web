@@ -5,8 +5,12 @@ function validarCampo(campo) {
     if (!mensagem) {
         mensagem = document.createElement('span');
         mensagem.classList.add('mensagem-erro');
+        mensagem.id = `${campo.id}-erro`;
+        mensagem.setAttribute('role', 'alert');
         container.appendChild(mensagem);
     }
+
+    campo.setAttribute('aria-describedby', mensagem.id);
 
     if (campo.checkValidity()) {
         campo.classList.remove('campo-invalido');

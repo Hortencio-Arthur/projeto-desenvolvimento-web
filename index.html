@@ -11,13 +11,13 @@
     <h1>Nome da ONG</h1>
 
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
-    <label for="menu-toggle" class="menu-icone">☰</label>
+    <label for="menu-toggle" class="menu-icone" aria-label="Abrir menu de navegação">☰</label>
 
-    <nav> 
+    <nav aria-label="Navegação principal"> 
       <a href="html/inicio.html" class="ativo">Início</a>
 
       <div class="dropdown">
-        <a href="html/projetos.html">Projetos</a>
+        <a href="html/projetos.html" aria-haspopup="true" aria-expanded="false">Projetos</a>
         <div class="dropdown-conteudo">
           <a href="html/projetos.html#doacoes">Doações</a>
           <a href="html/projetos.html#voluntariado">Voluntariado</a>
