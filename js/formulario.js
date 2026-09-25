@@ -26,9 +26,3 @@ function iniciarFormulario() {
         }
     });
 }
-
-function abrirModalSucesso(){
-    const modalToggle = document.getElementById('modal-toggle');
-    modalToggle.checked = true;
-}
-

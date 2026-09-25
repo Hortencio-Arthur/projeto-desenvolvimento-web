@@ -21,4 +21,5 @@ async function carregarPagina(caminho) {
     app.innerHTML = html;
     renderizarProjetos();
     iniciarFormulario();
+    iniciarModal();
 }
