@@ -3,6 +3,11 @@ const CHAVE_TEMA = 'tema';
 function aplicarTema(tema) {
     document.documentElement.setAttribute('data-tema', tema);
     localStorage.setItem(CHAVE_TEMA, tema);
+
+    const botao = document.getElementById('toggle-tema');
+    botao.setAttribute('aria-pressed', tema === 'escuro');
+
+    botao.textContent = tema === 'escuro' ? '☀️' : '🌙';
 }
 
 function inicializarTema() {

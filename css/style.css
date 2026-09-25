@@ -165,7 +165,8 @@ header{
 }
 
 header h1{
-    color: var(--cor-branco)
+    color: var(--cor-branco);
+    padding-right: 3rem;
 }
 
 nav{
