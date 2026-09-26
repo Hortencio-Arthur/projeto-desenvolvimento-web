@@ -1,0 +1,26 @@
+{
+  "name": "projeto-desenvolvimento-web",
+  "version": "1.0.0",
+  "description": "Aplicação web SPA (Single Page Application) desenvolvida para uma ONG fictícia, com o objetivo de centralizar informações institucionais, projetos sociais e cadastro de voluntários e doadores.",
+  "main": "index.js",
+    "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hortencio-Arthur/projeto-desenvolvimento-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hortencio-Arthur/projeto-desenvolvimento-web/issues"
+  },
+  "homepage": "https://github.com/Hortencio-Arthur/projeto-desenvolvimento-web#readme",
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}

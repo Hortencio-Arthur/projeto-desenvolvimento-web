@@ -11,7 +11,7 @@ const projetos =[
         titulo: "Doações",
         badgeTexto: "Urgente",
         badgeTipo: "badge-urgente",
-        imagem: "imagens/doacao.jpg",
+        imagem: "imagens/doacao.webp",
         texto: "Saiba comocontribuir para nossas campanhas com doações e ajudar a transformar vidas.",
         coluna: "col-md-6 col-lg-4"
     },
