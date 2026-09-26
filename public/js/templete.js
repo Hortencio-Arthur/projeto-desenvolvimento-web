@@ -11,7 +11,7 @@ const projetos =[
         titulo: "Doações",
         badgeTexto: "Urgente",
         badgeTipo: "badge-urgente",
-        imagem: "imagens/doacao.webp",
+        imagem: "imagens/doacao",
         texto: "Saiba comocontribuir para nossas campanhas com doações e ajudar a transformar vidas.",
         coluna: "col-md-6 col-lg-4"
     },
@@ -26,8 +26,12 @@ const projetos =[
 ];
 
 function criarCardProjeto(projeto) {
-    const imagemHtml = projeto.imagem
-    ? `<img src="${projeto.imagem}" alt="Imagem ilustrativa de ${projeto.titulo}">`
+        const imagemHtml = projeto.imagem
+    ? `<img 
+        src="${projeto.imagem}-800.webp" 
+        srcset="${projeto.imagem}-480.webp 480w, ${projeto.imagem}-800.webp 800w, ${projeto.imagem}-1200.webp 1200w" 
+        sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px"
+        alt="Imagem ilustrativa de ${projeto.titulo}">`
     : '';
 
     return `
